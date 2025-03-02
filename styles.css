@@ -1,1 +1,54 @@
 /* your code here */
+.media-icons {
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+  gap:10px; /* Optional: Add space between images */
+}
+.media-icons img {
+	width:30px;
+}
+.top{
+	padding: 4px;
+	padding-bottom: 10px;
+	padding-top:30px;
+	display:flex;
+	justify-content: space-between; 
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	}
+.content{
+	background-color:black;
+	color:white;
+	padding-left:10px;
+}
+.logo_name{
+	color:white;
+	font-size:25px;
+}
+.link-boxes{
+	display:flex;
+	justify-content: space-evenly; 
+	padding-top: 30px;
+	padding-bottom:30px;
+	
+}
+.link-boxes div p{
+	color:#5D5D5D;
+}
+a {
+text-decoration: none; /* Removes the underline from the link */
+color: grey; /* Optional: Set the link color */
+        }
+.bottom-details{
+	background-color:#2C303A;
+	display:flex;
+	justify-content: space-between;
+	color:#BDC0C2;
+	padding-left:20px;
+	padding-right:20px;
+	font:9px;
+}
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
