@@ -1,20 +1,33 @@
 /* your code here */
-.media-icons {
-  display: flex; /* Use flexbox for layout */
-  justify-content: flex-end; /* Align items to the right */
-  gap:10px; /* Optional: Add space between images */
-}
-.media-icons img {
-	width:30px;
-}
-.top{
+.top {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Distributes space between items */ /* Vertically centers the items */
+  padding: 10px; /* Optional: Adds padding around the container */
 	padding: 4px;
 	padding-bottom: 10px;
 	padding-top:30px;
-	display:flex;
-	justify-content: space-between; 
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	}
+}
+
+.logo-details {
+  font-size: 24px; /* Adjusts the font size of the logo name */
+  font-weight: bold; /* Makes the logo name bold */
+}
+
+.media-icons a {
+  margin: 0 5px; /* Adds horizontal spacing between icons */
+}
+
+.media-icons img {
+  width: 32px; /* Sets a consistent width for icons */
+  height: 32px; /* Sets a consistent height for icons */
+}
+
+.media-icons {
+   display: flex; /* Enables flexbox layout */
+  justify-content: space-evenly; /* Distributes space evenly around items */
+  align-items: center;
+	gap:1px;
+}
 .content{
 	background-color:black;
 	color:white;
